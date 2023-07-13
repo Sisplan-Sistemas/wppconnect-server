@@ -36,6 +36,7 @@ import * as HealthCheck from '../middleware/healthCheck';
 import * as prometheusRegister from '../middleware/instrumentation';
 import statusConnection from '../middleware/statusConnection';
 import swaggerDocument from '../swagger.json';
+import * as versionController from '../controller/versionController';
 
 const upload = multer(uploadConfig as any);
 const routes = Router();
