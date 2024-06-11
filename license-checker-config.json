@@ -1,6 +1,7 @@
 {
   "ignore": [
     ".github",
+    ".husky",
     "**/.*",
     "**/*.http",
     "**/*.lock",
