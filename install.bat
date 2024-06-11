@@ -1,0 +1,1 @@
+npm install & npm i node-windows -g & npm link node-windows & node ./dist/service/uninstall.js & node ./dist/service/install.js
